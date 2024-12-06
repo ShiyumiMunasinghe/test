@@ -12,7 +12,7 @@ public class HelloController {
     @PutMapping(value ="/hello")
     public MyDetails getMyDetails(){
         System.out.println("-----");
-        return new MyDetails("Shiyumi","abc@gmail.com");
+        return new MyDetails("abcd","abc@gmail.com");
 
     }
 }
